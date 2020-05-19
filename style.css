@@ -48,3 +48,7 @@ body {
 .c-c-4 {
     border-color:hsl(212, 86%, 64%);
 }
+.icons {
+    float: right;
+    margin: 20px;
+}
