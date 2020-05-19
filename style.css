@@ -34,9 +34,10 @@ h2 h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
 .col-block {
-    width:350px;
+    width: 90%;
     height: 250px;
     background-color: white;
     border: cadetblue solid 1px;
@@ -53,11 +54,11 @@ h2 h3 {
     border-color: hsl(180, 62%, 55%);
 }
 .c-c-2 {
-    margin-top: 20px;
+    margin-bottom: 20px;
     border-color: hsl(0, 78%, 62%);
 }
 .c-c-3 {
-    margin-top: 20px;
+    margin-bottom: 20px;
     border-color: hsl(34, 97%, 64%);
 }
 .c-c-4 {
@@ -69,4 +70,20 @@ h2 h3 {
 }
 .text {
     height: 50%;
+}
+@media only screen and (max-width: 900px) {
+    .block_base {
+        flex-direction: column;
+        align-items: center;
+    }
+    .column {
+        width: 90%;
+        height: auto;
+    }
+    .c-c-1 {
+        margin-bottom: 20px;
+    }
+    .header {
+        margin-bottom: 30px;
+    }
 }
