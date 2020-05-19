@@ -1,5 +1,20 @@
 body {
     background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+p {
+    font-weight: 200;
+}
+h2 h3 {
+    font-weight: 400;
+}
+#title-1 {
+    font-weight: 200;
+    margin-bottom: -15px;
+}
+#title-2 {
+    margin-bottom: -5px;
 }
 .wrapper {
     max-width: 1440px;
@@ -14,7 +29,7 @@ body {
 }
 .column {
     width: 30%;
-    height: 800px;
+    height: 600px;
    /* border: cadetblue solid 1px;*/
     display: flex;
     align-items: center;
