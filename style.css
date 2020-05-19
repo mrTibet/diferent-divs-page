@@ -15,7 +15,7 @@ body {
 .column {
     width: 30%;
     height: 800px;
-    border: cadetblue solid 1px;
+   /* border: cadetblue solid 1px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,4 +51,7 @@ body {
 .icons {
     float: right;
     margin: 20px;
+}
+.text {
+    height: 50%;
 }
